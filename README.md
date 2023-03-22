@@ -6,7 +6,7 @@ This is a PyTorch implementation of the following paper:
 
 Yuxuan Han, Zhibo Wang and Feng Xu
 
-[Project Page](https://yxuhan.github.io/ReflectanceMM/index.html) | [Paper]()
+[Project Page](https://yxuhan.github.io/ReflectanceMM/index.html) | [Paper](https://arxiv.org/abs/2303.11686)
 
 <img src="misc/ReflectanceMM.png" width="100%" >
 
