@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.vscode/*
+
+checkpoints/*
+dataset/*
+RefMM/*
+
+BFM/BFM_model_front.mat
+BFM/morphableModel-2009.pkl
