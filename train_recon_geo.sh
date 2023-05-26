@@ -1,0 +1,11 @@
+python train.py \
+    --gpu_id 0 \
+    --save_epoch_freq 5 \
+    --data_root dataset/ffhq \
+    --dataset_mode refmm \
+    --batch_size 16 \
+    --name geometry_reconstruction \
+    --camera_rig_path RefMM/camera_rig.pkl \
+    --update_model False \
+    --recon_geo True \
+    --refmm_path RefMM/official_finetuned_refmm_model.pkl
