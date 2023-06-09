@@ -86,9 +86,24 @@ ReflectanceMM
 sh train.sh
 ```
 
-2. We provide an example to integrate our model to the CNN-based self-supervised face geometry reconstruction pipeline (just like [Deep3DFaceRecon_pytorch](https://github.com/sicxu/Deep3DFaceRecon_pytorch)) on the FFHQ dataset:
+2. We provide an example to integrate our model to the CNN-based self-supervised face geometry reconstruction pipeline (just like [Deep3DFaceRecon_pytorch](https://github.com/sicxu/Deep3DFaceRecon_pytorch)) on the FFHQ dataset, the pretrained model can be downloaded from [here](https://cloud.tsinghua.edu.cn/d/e7b5d294d368484bbc6b/):
 ```
 sh train_recon_geo.sh
+```
+
+*NOTE*: Since its not our goal to enhance the geometry reconstruction accuracy, we only use the FFHQ dataset here. To improve its geometry reconstruction accuracy, you can incorporate more in-the-wild datasets for training.
+
+## Test
+Use our pretrained model to infer face geometry & reflectance parameters and the environment lighting.
+
+1. Organize your input images as `dataset/examples`. Please follow [Deep3DFaceRecon_pytorch](https://github.com/sicxu/Deep3DFaceRecon_pytorch#test-with-custom-images) for more preprocessing details.
+
+2. Download our [pretrained model](https://cloud.tsinghua.edu.cn/d/e7b5d294d368484bbc6b/) and put it into the `checkpoints` folder.
+
+3. run the command:
+
+```
+sh test.sh
 ```
 
 ## Contact

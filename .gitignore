@@ -2,8 +2,9 @@ __pycache__/
 *.py[cod]
 .vscode/*
 
+workspace/*
 checkpoints/*
-dataset/*
+dataset/ffhq
 RefMM/*
 
 BFM/BFM_model_front.mat
