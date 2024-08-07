@@ -61,7 +61,7 @@ ReflectanceMM
         |- resnet50-0676ba61.pth
 ```
 
-2. Download the `BFM_model_front.mat` following the instructions of [Deep3DFaceRecon_pytorch](https://github.com/sicxu/Deep3DFaceRecon_pytorch#prepare-prerequisite-models), and put it into the BFM directory. Then, run the following command to convert the BFM09 to our format to obtain `morphableModel-2009.pkl`: `python convert_bfm09.py`. After the above steps, the structure of BFM folder should be:
+2. Download the `BFM_model_front.mat` following the instructions of [Deep3DFaceRecon_pytorch](https://github.com/sicxu/Deep3DFaceRecon_pytorch#prepare-prerequisite-models), and put it into the BFM directory (you need to convert `01_MorphableModel.mat` to `BFM_model_front.mat` using the code [here](https://github.com/sicxu/Deep3DFaceRecon_pytorch/blob/b9e6fa89ea1566bb9ec27922f6f5d87c34b4b261/util/load_mats.py#L32)). Then, run the following command to convert the BFM09 to our format to obtain `morphableModel-2009.pkl`: `python convert_bfm09.py`. After the above steps, the structure of BFM folder should be:
 ```
 ReflectanceMM
 |- BFM
